@@ -1,0 +1,17 @@
+body{
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	background:#000;
+}
+img{
+	transition:0.5s;
+	max-width:400px;
+	margin:0 10px;
+}
+img:hover{
+	filter:grayscale(1) contrast(3);
+}
